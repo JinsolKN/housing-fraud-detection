@@ -94,9 +94,9 @@ XGBoost, LightGBM, CatBoost 각각 **100 trial** Optuna 최적화 수행
 
 | 모델 | 주요 탐색 파라미터 |
 |---|---|
-| XGBoost | n_estimators(820~840), max_depth(11~13), learning_rate, subsample, gamma |
-| LightGBM | num_leaves(27~28), feature_fraction, bagging_fraction, learning_rate |
-| CatBoost | iterations(765~775), depth(3~5), learning_rate, subsample |
+| XGBoost | n_estimators(820-840), max_depth(11-13), learning_rate, subsample, gamma |
+| LightGBM | num_leaves(27-28), feature_fraction, bagging_fraction, learning_rate |
+| CatBoost | iterations(765-775), depth(3-5), learning_rate, subsample |
 
 ### 앙상블: Soft Voting Classifier
 
